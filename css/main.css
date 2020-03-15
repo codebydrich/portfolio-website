@@ -1,0 +1,265 @@
+/***** BASE STYLE *****/
+body {
+    background: black;
+    color: white;
+}
+body p {
+    font-family: 'Lato', sans-serif;
+}
+
+body h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body h2 {
+    font-size: 38pt;
+}
+
+/***** HEADER *****/
+
+#header h1 {
+    font-size: 30pt;
+    float: left;
+}
+
+#header h1 span {
+    color: green;
+}
+
+#header nav {
+    font-size: 27pt;
+    float: right;
+    margin: 30px auto;
+    word-spacing: 20px;
+    font-variant: small-caps;
+}
+
+#header nav span {
+    text-decoration: underline;
+}
+
+#header nav a {
+    color: red;
+    word-spacing: 20px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/***** HERO *****/
+
+#hero {
+    background: url('../img/hero.png');
+    background-size: cover;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    font-size: 72pt;
+    color: white;
+    padding: 200px 0 0 100px;
+}
+
+#hero h2 span {
+    color: red;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    font-size: 38pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+#portfolio h3 {
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+#rogue-img, #rogue-text, #jubilee-img, #jubilee-text, #cbd-img, #cbd-text {
+    height: 500px;
+}
+
+#rogue-img,  #cbd-img {
+    float: left;
+    clear: both;
+}
+
+#rogue-text, #cbd-text {
+    float: right;
+    text-align: center;
+    font-size: 24pt;
+}
+
+#jubilee-img {
+    float: right;
+    clear: both;
+}
+
+#jubilee-text {
+    float: left;
+    text-align: center;
+    font-size: 24pt;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background: url('../img/about-me.png');
+    background-size: cover;
+    margin: auto;
+    overflow: inherit;
+    width: 1400px;
+}
+#about h2 {
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-variant: small-caps;
+    clear: both;
+    letter-spacing: 2px;
+}
+
+#about p {
+    font-size: 24pt;
+    text-align: left;
+    line-height: 24pt;
+    padding-left: 5px;
+    color: black;
+}
+
+/***** CONTACT *****/
+
+#contact h2 {
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+#contact h3 {
+    font-size: 24pt;
+    line-height: 24pt;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#contact p {
+    font-size: 24pt;
+    line-height: 5pt;
+    text-align: center;
+}
+
+#follow {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+#hire {
+    padding-left: 100px;
+}
+
+#hire a {
+    color: white;
+}
+
+/***** FOOTER *****/
+
+#footer h2 {
+    font-size: 18pt;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/***** MYPORTFOLIO PAGE *****/
+
+
+#myportfolio h2 {
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-left: -75px;
+}
+
+#myportfolio h3 {
+    font-size: 28pt;
+    padding-left: 25px;
+    letter-spacing: 2px;
+    color: red;
+}
+
+#myportfolio p {
+    font-size: 24pt;
+    text-align: left;
+    padding-left: 75px;
+    margin: none;
+}
+
+#myportfolio img {
+    width: 1400px;
+}
+
+/***** GRID *****/
+
+#header {
+    height: 15px;
+}
+
+#hero {
+    height: 700px;
+}
+
+#portfolio {
+    height: 1550px;
+}
+
+#myportfolio {
+    height: auto;
+}
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+#footer {
+    height: 100px;
+}
+
+/***** CLASS WIDTHS *****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
